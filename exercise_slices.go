@@ -1,4 +1,4 @@
-package golang
+package main
 
 import "golang.org/x/tour/pic"
 
