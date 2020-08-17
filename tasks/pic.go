@@ -1,6 +1,4 @@
-package main
-
-import "golang.org/x/tour/pic"
+package tasks
 
 func Pic(dx, dy int) [][]uint8 {
 	a := make([][]uint8, dy)
@@ -11,8 +9,4 @@ func Pic(dx, dy int) [][]uint8 {
 		}
 	}
 	return a
-}
-
-func main() {
-	pic.Show(Pic)
 }
