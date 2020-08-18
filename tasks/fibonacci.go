@@ -1,6 +1,6 @@
 package tasks
 
-func fibonacci() func() int {
+func Fibonacci() func() int {
 	x := 0
 	y := 1
 	return func() int {
